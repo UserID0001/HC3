@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name=viewport>
+    <link rel=icon href=favicon.ico>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover">
+    <!-- webApp全屏显示，IOS设备 -->
+  <meta name='apple-mobile-web-app-capable' content='yes' />
+  <!-- 通用的浏览器 -->
+  <meta name='full-screen' content='true' />
+  <!-- QQ浏览器（X5内核）独有的META -->
+  <meta name='x5-fullscreen' content='true' />
+  <!-- 360浏览器独有的 -->
+  <meta name='360-fullscreen' content='true' />
+    <title>鄂汇办-湖北健康码</title>
+    <link rel=stylesheet href=css/index.css>
+</head>
+<body>
+    <div id="title">
+        <span class="iconfont" id="title1">&#xe62b;</span>
+        <span id="title2">健康码</span>
+    </div>
+    <div id="banner">
+        <span class="info" id="info1">姓名</span><span class="info" id="info2">身份证号</span> 
+        <span class="infoinfo" id="info3">*魁</span><span class="infoinfo" id="info4">****** ******** 0013</span>
+    </div>
+    <div id="code">
+        <div id="time">
+            <span id="MyDateDisplay"><script type="text/javascript" src="./js/date.js"></script></span>
+            <span id="MyClockDisplay"><script type="text/javascript" src="./js/time.js"></script></span>
+            <span id="MySecondDisplay"><script type="text/javascript" src="./js/second.js"></script></span>
+        </div>
+        <img id="qrcode" src="./images/qrcode.png" width="180px" height="180px">
+    </div>
+    <div id="tcandmiddle">
+        <div id="stamp">
+            <img src="./images/green@2x.ee55a61f.png" width="150px">
+        </div>
+        <div id="tripCard" onclick="window.location.href='http://userid0001.github.io/TC'">
+            <span class="iconfont" id="tc1">&#xe6c9;</span>
+            <span id="tc2">出示我的行程卡</span>
+            <span class="iconfont" id="tc3">&#xe635;</span>
+        </div>
+        <div id="middle">
+            <div id="hesuan">
+                <div id=hesuan1>
+                    <span class="iconfont" id="hesuan1a">&#xe69e;</span><span id="hesuan1b">核酸检测</span><span class="iconfont" id="hesuan1c"s>&#xe635;</span>
+                </div>
+                <div id="hesuan2">
+                    <div id="hesuan2a">24</div>
+                    <div id="hesuan2b">小时<br/>阴性</div>
+                </div>
+                <div id="hesuan3">
+                <span id="MyDateDisplay2"><script type="text/javascript" src="./js/date2.js"></script></span><span> 10:18</span>
+                </div>
+            </div>
+            <div id="yimiao">
+                <div id=yimiao1>
+                    <span class="iconfont" id="yimiao1a">&#xeaf1</span><span id="yimiao1b">疫苗接种</span><span class="iconfont" id="hesuan1c"s>&#xe635;</span>
+                </div>
+                <div id="yimiao2">
+                    <span id="yimiao2a">3</span>
+                    <span id="yimiao2b">次</span>
+                </div>
+                <div id="yimiao3">
+                    2022-02-18 16:30
+                </div>  
+            </div>
+        </div>
+        <div id="lowerBody">
+            <div id="picture">
+            <img src="./images/lowerbody.png" width="335px">
+            </div>
+        </div>   
+    </div>
+</body>
+</html>
