@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.ttf?t=1653400630770') format('truetype');
+  }
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f7f9;
+    font-family: Helvetica Neue, Helvetica, Arial, PingFangSC-Regular, PingFang SC, Hiragino Sans GB, Heiti SC, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, iconfont
+}
+
+#title{
+    height: 1.8rem;
+    text-align: center;
+}
+
+#title1{
+    float:left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 3px;
+
+}
+
+#title2{
+    font-size: 1.1rem;
+}
+
+#stamp{
+    position:absolute;
+    z-index: 1000;
+    top: -92px;
+    left: 230px;
+    
+}
+#banner{
+    width: 100%;
+    background-color: #3296fa;
+    background-image: url(../images/hubei-white.98e60b1e.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 170px;
+}
+
+.info{
+    position: absolute;
+    color: hsla(0, 0%, 100%, .7);
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-size: 0.9rem;
+    background: none;
+}
+
+#info1, #info3{
+    margin-left: 1.5rem;
+}
+
+#info2, #info4{
+    margin-left: 7rem;
+}
+
+.infoinfo{
+    position: absolute;
+    color: white;
+    margin-top: 2.8rem;
+    font-size: 1.1rem;
+    background: none;
+}
+
+#code{
+    width: 210px;
+    height: 180px;
+    background-color: white;
+    padding: 20px 60px 40px 60px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    top: -80px;
+    align-items: center;
+    text-align: center;
+}
+
+#qrcode{
+    position: relative;
+    margin-top: -8px;
+    background-color: white;
+}
+
+#time{
+    position: relative;
+    top: -10px;
+}
+
+#time{
+    font-size: 4.83092vw;
+    font-weight: 600;
+}
+
+#MySecondDisplay{
+    color: #4d94f3;
+    font-size: 5.31401vw;
+    font-weight: 700;
+    font-family: helvetica Neue !important;
+}
+
+#tcandmiddle{
+    position: relative;
+    top: -79px;
+}
+
+#tripCard{
+    background-color: white;
+    width: 330px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+#tc1, #tc2, #tc3{
+    background: none;
+}
+
+#tc1, #tc2{
+    float: left;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+#tc1{
+    font-size: 1.3rem;
+    margin-top: 9px;
+    background: none;
+    background: -webkit-linear-gradient(-90deg, #a2e5d3, #1acfa2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tc2{
+    margin-top: 10px;
+}
+
+#tc3{
+    float: right;
+    margin-right: 15px;
+    margin-top: 17px;
+    color: grey;
+}
+
+#middle{
+    width: 330px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hesuan{
+    width: 160px;
+    height: 100px;
+    background-image: url(../images/24@2x.e684140f.png);
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+#hesuan1{
+    margin-top: 10px;
+}
+
+#yimiao{
+    width: 160px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    float: right;
+    color: black;
+    text-align: center;
+}
+
+#hesuan1a{
+    border-radius: 50%;
+    font-size: 0.9rem;
+    color: white;
+    margin-right: 10px;
+}
+
+#hesuan1c{
+    font-size: 0.8rem;
+    margin-left: 5px;
+}   
+
+#hesuan2a{
+    font-size: 2.5rem;
+    font-weight: 600;
+    display: block;
+    float: left;
+    margin-left: 45px;
+}
+
+#hesuan2b{
+    float: right;
+    margin-right: 40px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+
+#hesuan3{
+    font-size: 0.8rem;
+    clear: both;
+}
+
+#yimiao1{
+    margin-top: 10px;
+}
+
+#yimiao1a{
+    color: #3296fa;
+    background-color: #e6f2ff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#yimiao2{
+    color: #3296fa;
+}
+
+#yimiao2a{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#yimiao2b{
+    font-size: 0.8rem;
+}
+
+#yimiao3{
+    font-size: 0.8rem;
+}
+
+#lowerBody{
+    position: relative;
+    text-align: center;
+    top: -50px;
+}
